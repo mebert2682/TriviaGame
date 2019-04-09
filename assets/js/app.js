@@ -81,23 +81,41 @@
 
       // create question bank
       var questions = [{
-          question: 'Question 1',
-          answer: 'Answer 1',
-          choices: ['Answer 1', "Answer 2", "Answer 3"],
+          question: 'Under what name did Engelbert Humperdinck make his first records?',
+          answer: 'Arnold Dorsey',
+          choices: ['Gerry Dorsey', "Jimmy Dorsey", "Arnold Dorsey", "Tommy Dorsey"],
           userAnswer: ""
         },
         {
-          question: 'Question 2',
-          answer: 'Answer 2',
-          choices: ['Answer 1', "Answer 2", "Answer 3"],
+          question: 'What was Englebert first number one hit',
+          answer: 'Release Me"',
+          choices: ['A Man Without Love', "Winter World of Love", "The Last Waltz", "Release Me"],
           userAnswer: ""
         },
         {
-          question: 'Question 3',
-          answer: 'Answer 3',
-          choices: ['Answer 1', "Answer 2", "Answer 3"],
+          question: 'In what year did his first number one song come out?',
+          answer: '1967',
+          choices: ['1967', "1968", "1969", "1970"],
           userAnswer: ""
-        }
+        },
+        {
+          question: 'What was his second number one hit?',
+          answer: 'The Last Waltz',
+          choices: ['The Last of the Romantics', "Last Song", "Too Beautiful to Last", "The Last Waltz"],
+          userAnswer: ""
+        },
+        {
+          question: 'In what year did his second number one song come out?',
+          answer: '1967',
+          choices: ['1967', "1968", "1969", "1970"],
+          userAnswer: ""
+        },
+        {
+          question: 'On the 1970 album "We Made It Hapen," Englebert recorded which Stevie Wonder Song?',
+          answer: 'My Cherie Amour',
+          choices: ['My Cherie Amour', "Sweetheart", "Sweet Marjorene", "Girl of Mine"],
+          userAnswer: ""
+        },
       ];
 
       // set user score
